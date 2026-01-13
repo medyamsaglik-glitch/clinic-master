@@ -139,7 +139,7 @@ function Header() {
                                 <div className="extra-cell">
                                     <ul className="header-right">
                                         <li className="nav-item">
-                                            <Link href="/appointment" className="btn btn-primary btn-hover1"> Appointment </Link>
+                                            <Link href="/appointment" className="btn btn-primary btn-hover1"> Randevu Al </Link>
                                         </li>
                                         <li className="nav-item">
                                             <button onClick={() => handleclick(1)} type="button" className="toggle-nav-btn" data-bs-toggle="offcanvas" data-bs-target="#headerSidebar" aria-controls="offcanvasLeft">
@@ -168,9 +168,9 @@ function Header() {
                                 <h4 className="title">Contact Us</h4>
                             </div>
                             <ul className="list-check">
-                                <li>785 15h Street, Office 478 Berlin, De 81566</li>
+                                <li>Alpaslan Mahallesi Sevgi Sk. No:3 Melikgazi/KAYSERİ</li>
                                 <li><Link href="mailto:email@domain.com" className="text-body">email@domain.com</Link></li>
-                                <li><Link href="tel:+11234567890" className="text-body">+1 123 456 7890</Link></li>
+                                <li><Link href="tel:0532 576 51 82" className="text-body">+1 123 456 7890</Link></li>
                             </ul>
                         </div>
                         <div className="widget">
@@ -193,7 +193,7 @@ function Header() {
                         </div>
                         <div className="widget">
                             <div className="widget-title">
-                                <h4 className="title">Follow Us</h4>
+                                <h4 className="title">Takip Et</h4>
                             </div>
                             <div className="dz-social-icon style-1">
                                 <ul>
