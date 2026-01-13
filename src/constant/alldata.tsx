@@ -31,7 +31,7 @@ export type HeaderItem = {
 
 export const headerdata : HeaderItem[] = [
     {
-        title: "Home",
+        title: "Anasayfa",
         classChange: "has-mega-menu",
         content: [
             { title: "01 Skin Care", to: "https://next-clinicmaster-skincare.vercel.app/", image: IMAGES.demohome3, },
@@ -40,7 +40,7 @@ export const headerdata : HeaderItem[] = [
         ],
     },
     {
-        title: "Pages",
+        title: "Kurumsal",
         classChange: "sub-menu-down",
         content: [
             { title: "About Us", to: "/about-us" },
@@ -63,7 +63,7 @@ export const headerdata : HeaderItem[] = [
         ],
     },
     {
-        title: "Services",
+        title: "İşlemlerimiz",
         classChange: "sub-menu-down",
         content: [
             { title: "Services", to: "/services" },
@@ -71,7 +71,7 @@ export const headerdata : HeaderItem[] = [
         ],
     },
     {
-        title: "Blogs",
+        title: "Hasta Rehberi",
         classChange: "sub-menu-down",
         content: [
             { title: "Blog Grid", to: "/blog-grid" },
@@ -79,7 +79,7 @@ export const headerdata : HeaderItem[] = [
             { title: "Blog Details", to: "/blog-details" },
         ],
     },
-    { title: "Contact Us", to: "/contact-us", },
+    { title: "İletişim", to: "/contact-us", },
 ]
 // footer 
 export const footerdata1 = [
